@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+/* -------------------Navbar---------------------- */
+.navbar{
+    padding: 20px 30px;
+    font-size: 1.2em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-brand{
+    font-size: 1.2em;
+}
+.navbar-brand span{
+    color: #DC4C64;
+}
+.nav-link{
+    margin: 0 10px;
+    font-weight: 400;
+}
+.nav-link.active{
+    color: #DC4C64 !important;
+}
+.nav-link:hover{
+    color: #DC4C64 !important;
+}
+/* -------------------/Navbar---------------------- */
+
+
+/* ----------------------Carousel------------------------ */
+#carouselBasicExample, .carousel-inner, .carousel-item, .carousel-item.active{
+    height: 100vh;
+    width: 100%;
+  }
+.carousel-item:nth-child(1){
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/carousel-img-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.carousel-item:nth-child(2){
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/carousel-img-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.carousel-item:nth-child(3){
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/carousel-img-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#carouselBasicExample{
+    box-shadow: 0 0 20px 7px #222;
+}
+
+
+/* ----------------------/Carousel------------------------ */
+
+
+/* ----------------------About------------------------ */
+#about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bg-image img, .mask{
+    border-radius: 10px;
+}
+.about-text{
+    margin-top: 40px;
+}
+.about-section-1{
+    margin-bottom: 100px;
+}
+.about-section-2 h1{
+    margin-bottom: 40px;
+}
+#about .accordion{
+    margin-bottom: 30px;
+}
+.accordion-button:not(.collapsed){
+    color: #DC4C64 !important;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%233b71ca'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 01.708 0L8 10.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z'/%3E%3C/svg%3E");
+}
+
+/* ----------------------/About------------------------ */
+
+/* ----------------------Services------------------------ */
+#services{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#services .row{
+    padding-top: 40px;
+}
+#services .card{
+    background: rgb(253, 250, 250);
+    padding: 20px 10px;
+    margin-bottom: 30px;
+}
+#services .card i{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* ----------------------/Services------------------------ */
+
+/* ----------------------Projects------------------------ */
+
+#projects{
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+#projects h1{
+    margin-bottom: 50px;
+}
+#projects .card{
+    background-color: rgb(253, 250, 250);
+    margin-bottom: 30px;
+}
+/* ---------------------------/Projects--------------------- */
+
+
+/* ---------------------------Team--------------------- */
+#team{
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+#team h1{
+    margin-bottom: 50px;
+}
+#team .card{
+    background: rgb(255, 250, 250);
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    transition: linear 0.3s;
+    cursor: pointer;
+}
+#team .card img{
+    max-width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.team-link{
+    margin: 0 12px;
+    font-size: 20px;
+    transition: .3s;
+}
+.team-link:hover{
+    transform: scale(160%);
+}
+/* ------------------------/Team--------------------------- */
+
+/* -------------------------Contact------------------------ */
+#contact{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#contact h1{
+    margin-bottom: 50px;
+}
+.form-outline .form-control:focus~.form-notch .form-notch-leading {
+    border-top: .125rem solid #DC4C64;
+    border-bottom: .125rem solid #DC4C64;
+    border-left: .125rem solid #DC4C64;
+}
+ .form-outline .form-control:focus~.form-notch .form-notch-middle {
+    border-bottom: .125rem solid;
+    border-color: #DC4C64;
+    border-top: none;
+}
+
+.form-outline .form-control:focus~.form-notch .form-notch-trailing {
+    border-color: currentcolor currentcolor currentcolor #DC4C64;
+    border-bottom: .125rem solid #DC4C64;
+    border-right: .125rem solid #DC4C64;
+    border-top: .125rem solid #DC4C64;
+}
+
+.form-outline .form-control:focus~.form-label {
+    color: #DC4C64;
+}		
+
+
+/* -------------------------/Contact-------------------- */
